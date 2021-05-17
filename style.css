@@ -1,0 +1,50 @@
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.header {
+    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+}
+
+ul#films-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-item-class img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 16px; 
+    padding: 8px;
+}
+
+input {
+    border: 1px solid lightgray;   
+}
+
+
+.radiobtn-filter {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+}
+
+input#search.filter {
+    padding: 8px;
+    margin-bottom: 24px;
+}
+
+label {
+    padding-right: 32px;
+    margin-bottom: 24px;
+}
